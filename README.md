@@ -14,7 +14,7 @@ npm install http-error-es2015
 
 ```javascript
 import 'babel-polyfill'
-import BadRequestError from 'http-error-es6/errors/BadRequestError'
+import BadRequestError from 'http-error-es2015/errors/BadRequestError'
 
 const err = new BadRequestError('message')
 ```

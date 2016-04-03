@@ -15,7 +15,7 @@ import GoneError from '../errors/GoneError'
 import LengthRequiredError from '../errors/LengthRequiredError'
 import PreconditionFailedError from '../errors/PreconditionFailedError'
 import PayloadTooLargeError from '../errors/PayloadTooLargeError'
-import URITooLongError from '../errors/URITooLongError'
+import UriTooLongError from '../errors/UriTooLongError'
 import UnsupportedMediaTypeError from '../errors/UnsupportedMediaTypeError'
 import RangeNotSatisfiableError from '../errors/RangeNotSatisfiableError'
 import ExpectationFailedError from '../errors/ExpectationFailedError'
@@ -33,7 +33,7 @@ import NotImplementedError from '../errors/NotImplementedError'
 import BadGatewayError from '../errors/BadGatewayError'
 import ServiceUnavailableError from '../errors/ServiceUnavailableError'
 import GatewayTimeoutError from '../errors/GatewayTimeoutError'
-import HTTPVersionNotSupportedError from '../errors/HTTPVersionNotSupportedError'
+import HttpVersionNotSupportedError from '../errors/HttpVersionNotSupportedError'
 import VariantAlsoNegotiatesError from '../errors/VariantAlsoNegotiatesError'
 import InsufficientStorageError from '../errors/InsufficientStorageError'
 import LoopDetectedError from '../errors/LoopDetectedError'
@@ -168,10 +168,10 @@ describe('ES2015 HTTP Errors', () => {
   })
 
   it('Should handle error 414 correctly', () => {
-    const err = new URITooLongError('test')
+    const err = new UriTooLongError('test')
 
     expect(err).toBeA(HttpError)
-    expect(err).toBeA(URITooLongError)
+    expect(err).toBeA(UriTooLongError)
     expect(err.code).toEqual(414)
     expect(err.message).toEqual('test')
   })
@@ -330,10 +330,10 @@ describe('ES2015 HTTP Errors', () => {
   })
 
   it('Should handle error 505 correctly', () => {
-    const err = new HTTPVersionNotSupportedError('test')
+    const err = new HttpVersionNotSupportedError('test')
 
     expect(err).toBeA(HttpError)
-    expect(err).toBeA(HTTPVersionNotSupportedError)
+    expect(err).toBeA(HttpVersionNotSupportedError)
     expect(err.code).toEqual(505)
     expect(err.message).toEqual('test')
   })

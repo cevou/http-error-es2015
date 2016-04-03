@@ -1,4 +1,4 @@
-class ExtendableError extends Error {
+class HttpError extends Error {
   constructor(message) {
     super(message)
     this.name = this.constructor.name
@@ -11,4 +11,4 @@ class ExtendableError extends Error {
   }
 }
 
-export default ExtendableError
+export default HttpError

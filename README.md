@@ -37,7 +37,7 @@ const err = new BadRequestError('message')
 | 411  | LengthRequiredError
 | 412  | PreconditionFailedError
 | 413  | PayloadTooLargeError
-| 414  | URITooLongError
+| 414  | UriTooLongError
 | 415  | UnsupportedMediaTypeError
 | 416  | RangeNotSatisfiableError
 | 417  | ExpectationFailedError
@@ -55,7 +55,7 @@ const err = new BadRequestError('message')
 | 502  | BadGatewayError
 | 503  | ServiceUnavailableError
 | 504  | GatewayTimeoutError
-| 505  | HTTPVersionNotSupportedError
+| 505  | HttpVersionNotSupportedError
 | 506  | VariantAlsoNegotiatesError
 | 507  | InsufficientStorageError
 | 508  | LoopDetectedError

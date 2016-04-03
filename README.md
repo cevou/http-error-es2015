@@ -1,8 +1,9 @@
 # http-error-es2015
 
-[![Travis](https://img.shields.io/travis/SamanIO/http-error-es2015.svg?style=flat-square)](https://travis-ci.org/SamanIO/http-error-es2015) [![npm](https://img.shields.io/npm/v/http-error-es2015.svg?style=flat-square)](https://www.npmjs.com/package/http-error-es2015)
+[![Travis](https://img.shields.io/travis/SamanIO/http-error-es2015.svg?style=flat-square)](https://travis-ci.org/SamanIO/http-error-es2015)
+[![npm](https://img.shields.io/npm/v/http-error-es2015.svg?style=flat-square)](https://www.npmjs.com/package/http-error-es2015)
 
-A library with ES6 error classes for all HTTP Errors
+A library with ES2015 error classes for all HTTP Errors
 
 ## Install
 

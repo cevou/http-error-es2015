@@ -6,10 +6,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samanio/http-error-es6"
+    "url": "https://github.com/samanio/http-error-es2015"
   },
   "bugs": {
-    "url": "https://github.com/samanio/http-error-es6/issues"
+    "url": "https://github.com/samanio/http-error-es2015/issues"
   },
   "keywords": [
     "es6",

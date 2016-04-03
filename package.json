@@ -1,6 +1,6 @@
 {
   "name": "http-error-es2015",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ES2105 JavaScript Error classes for all HTTP Errors",
   "author": "Christoph Kraemer <christoph@kraemer.io>",
   "license": "MIT",

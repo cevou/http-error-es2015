@@ -1,6 +1,6 @@
 # http-error-es2015
 
-[![Travis](https://img.shields.io/travis/SamanIO/http-error-es2015.svg?style=flat-square)](https://travis-ci.org/SamanIO/http-error-es2015)
+[![Travis](https://img.shields.io/travis/cevou/http-error-es2015.svg?style=flat-square)](https://travis-ci.org/cevou/http-error-es2015)
 [![npm](https://img.shields.io/npm/v/http-error-es2015.svg?style=flat-square)](https://www.npmjs.com/package/http-error-es2015)
 
 A library with ES2015 error classes for all HTTP Errors
@@ -14,11 +14,12 @@ npm install http-error-es2015
 ## Example
 
 ```javascript
-import 'babel-polyfill'
 import BadRequestError from 'http-error-es2015/errors/BadRequestError'
 
 const err = new BadRequestError('message')
 ```
+
+If you use an environment which does not support the Reflect API you have to polyfill the functionality.
 
 ## List of errors
 
